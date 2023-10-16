@@ -16,9 +16,16 @@ const About = () => {
         <Heading name={"About Me"} />
         <div className="col-12">
           <p>
-            Extremely motivated to constantly develop my skills and grow
-            professionally. I am confident in my ability to come up with new
-            ideas and enhance my developement skills.
+            Passionate Software Engineer with a strong foundation in web and
+            application development. I thrive on translating complex ideas into
+            user-friendly solutions. Proficient in an array of programming
+            languages and frameworks, including React and Laravel/CodeIgniter,
+            My journey as a developer has taught me the value of collaboration
+            and continuous learning, driving me to stay familiar with industry
+            trends and best practices. As a Software Engineer, I am highly
+            motivated, hardworking, and focused. I am passionate about my work
+            and always willing to learn new technologies and constantly push my
+            limits to grow and succeed in life.
           </p>
           <div className="row">
             {AboutLists?.map((list) => (

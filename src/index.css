@@ -10108,8 +10108,17 @@ h6 {
   color: #565859;
 }
 .sidebar_image img {
-  border-radius: 50%;
   height: auto;
   width: 100%;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 15px -10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.gap-3 {
+  gap: 5px !important;
+}
+.gap-4 {
+  gap: 5px !important;
+}
+.gap-5 {
+  gap: 5px !important;
 }

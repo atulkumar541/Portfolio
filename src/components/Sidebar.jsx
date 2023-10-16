@@ -6,8 +6,8 @@ const Sidebar = () => {
     <div className="sidebar">
       <div className="sidebar-text d-flex flex-column h-100 justify-content-center text-center sidebar_image">
         <img
-          className="w-100 img-fluid mb-4"
-          src="images/profileImage.png"
+          className="w-100 img-fluid mb-5"
+          src="images/profileImage-bg.png"
           alt="Atulkumar Chaturvedi"
         />
         <h1 className="mt-2 chachterSpan">
