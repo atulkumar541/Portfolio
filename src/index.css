@@ -10122,3 +10122,47 @@ h6 {
 .gap-5 {
   gap: 5px !important;
 }
+.contact-form .error {
+  color: red;
+}
+
+/*******/
+.skills {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.skill img {
+  width: 50px;
+}
+
+.soft-skill {
+  font-size: 1.2rem;
+  text-transform: lowercase;
+  border-radius: 50px;
+  margin: 0;
+  font-family: "Orbit", sans-serif;
+}
+.typed-text span {
+  font-family: "Averia Serif Libre", cursive;
+}
+.desc-list {
+  list-style: none;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.desc-list li {
+  display: flex;
+  gap: 5px;
+}

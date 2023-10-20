@@ -7,60 +7,54 @@ const Experience = () => {
     {
       designation: "Software Engineer",
       company_name: "INNsight Interactive Pvt. Ltd.",
-      start_year: "2021",
+      start_year: "03/2022",
       end_year: "Present",
       desc: [
         {
-          head: "Booking Engine Experience",
-          para: "Worked in-depth with a Booking Engine, gaining valuable insights into its functionality and operations",
+          para: "Worked and learned how Booking Engine works.",
         },
         {
-          head: "Booking Engine Experience",
-          para: "Worked in-depth with a Booking Engine, gaining valuable insights into its functionality and operations",
+          para: "Worked on API for mobile application.",
         },
         {
-          head: "Booking Engine Experience",
-          para: "Worked in-depth with a Booking Engine, gaining valuable insights into its functionality and operations",
+          para: "Develop and implement modules based on application/system requirements.",
+        },
+        {
+          para: "Developed and implement the tools which increased the level of automation.",
         },
       ],
     },
     {
       designation: "Website Developer",
       company_name: "Kubic Technology",
-      start_year: "2020",
-      end_year: "2021",
+      start_year: "01/2021",
+      end_year: "03/2022",
       desc: [
         {
-          head: "Booking Engine Experience",
-          para: "Worked in-depth with a Booking Engine, gaining valuable insights into its functionality and operations",
+          para: "Strengthen Core PHP and PHP OOP concepts.",
         },
         {
-          head: "Booking Engine Experience",
-          para: "Worked in-depth with a Booking Engine, gaining valuable insights into its functionality and operations",
+          para: "Develop and implement web applications based on client requirements.",
         },
         {
-          head: "Booking Engine Experience",
-          para: "Worked in-depth with a Booking Engine, gaining valuable insights into its functionality and operations",
+          para: "Developed new software/website functionalities, ensure the clients vision and requrements where met.",
         },
       ],
     },
     {
       designation: "Web Designer",
       company_name: "K2S2 Digistrat Solutions Pvt. Ltd.",
-      start_year: "2019",
-      end_year: "2020",
+      start_year: "01/2020",
+      end_year: "01/2021",
       desc: [
         {
-          head: "Booking Engine Experience",
-          para: "Worked in-depth with a Booking Engine, gaining valuable insights into its functionality and operations",
+          para: "Assisted senior developers in creating and maintaining web applications.",
         },
         {
-          head: "Booking Engine Experience",
-          para: "Worked in-depth with a Booking Engine, gaining valuable insights into its functionality and operations",
+          para: "Participated in coding, debugging, and testing web projects.",
         },
         {
-          head: "Booking Engine Experience",
-          para: "Worked in-depth with a Booking Engine, gaining valuable insights into its functionality and operations",
+          para: "Collaborated with the team to implement responsive and user-friendly designs.",
         },
       ],
     },

@@ -1,5 +1,6 @@
 import { FaTwitter, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6";
 import TypeText from "./TypeText";
+import resume from "../../public/resume/AtulkumarChaturvediResume.pdf";
 
 const Sidebar = () => {
   return (
@@ -11,10 +12,10 @@ const Sidebar = () => {
           alt="Atulkumar Chaturvedi"
         />
         <h1 className="mt-2 chachterSpan">
-          Atulkumar <span>Chaturvedi</span>
+          I'm Atulkumar <span>Chaturvedi</span>
         </h1>
         <div className="mb-4">
-          <h4 className="typed-text-output d-inline-block text-body"></h4>
+          <h4 className="typed-text-output d-inline-block text-body">as a..</h4>
           <div className="typed-text">
             <TypeText />
           </div>
@@ -42,10 +43,17 @@ const Sidebar = () => {
           </a>
         </div>
         <div className="d-flex align-items-end justify-content-between">
-          <a href="" className="btn btn-block border-right">
+          <a
+            download
+            href="../../public/resume/AtulkumarChaturvediResume.pdf"
+            className="btn btn-block border-right"
+          >
             Download CV
           </a>
-          <a href="#contact" className="btn btn-block btn-scroll">
+          <a
+            href="mailto:chaturvediatulkumar541@gmail.com"
+            className="btn btn-block btn-scroll"
+          >
             Contact Me
           </a>
         </div>

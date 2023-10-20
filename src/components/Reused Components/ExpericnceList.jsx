@@ -1,4 +1,5 @@
 import { FaArrowRight } from "react-icons/fa";
+import { FaRegCircleDot } from "react-icons/fa6";
 
 const ExpericnceList = (props) => {
   // console.log(props);
@@ -18,15 +19,18 @@ const ExpericnceList = (props) => {
           {props.start_year} - {props.end_year}
         </small>
       </p>
-      {descs?.map((desc) => (
-        <div
-          key={desc.head}
-          className="d-inline-flex align-items-baseline gap-5 "
-        >
-          <h6>{desc.head} : </h6>
-          <p>{desc.para}</p>
-        </div>
-      ))}
+      <div className="d-inline-flex align-items-baseline gap-5 ">
+        <ul className="desc-list">
+          {descs?.map((desc) => (
+            <li key={desc.head}>
+              <i className="text-primary">
+                <FaRegCircleDot />
+              </i>
+              <p>{desc.para}</p>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };

@@ -5,10 +5,32 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Sidebar from "./components/Sidebar";
 import Skills from "./components/Skills";
+import AnimatedCursor from "react-animated-cursor";
 
 function App() {
   return (
     <div className="wrapper">
+      <AnimatedCursor
+        innerSize={9}
+        outerSize={40}
+        color="120, 204, 109"
+        outerAlpha={0.3}
+        innerScale={0.7}
+        outerScale={1.4}
+        clickables={[
+          "a",
+          'input[type="text"]',
+          'input[type="email"]',
+          'input[type="number"]',
+          'input[type="submit"]',
+          'input[type="image"]',
+          "label[for]",
+          "select",
+          "textarea",
+          "button",
+          ".link",
+        ]}
+      />
       <Sidebar />
       <div className="content">
         <About />

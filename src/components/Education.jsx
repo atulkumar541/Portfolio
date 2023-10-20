@@ -1,6 +1,5 @@
 import ExpericnceList from "./Reused Components/ExpericnceList";
 import Heading from "./Reused Components/Heading";
-import { FaArrowRight } from "react-icons/fa";
 const Education = () => {
   const Lists = [
     {
@@ -17,13 +16,6 @@ const Education = () => {
       start_year: "2013",
       end_year: "2016",
     },
-    {
-      designation: "HSC",
-      company_name: "Sheth Gopalji Hemraj High School",
-      university: "Mumbai University",
-      start_year: "2010",
-      end_year: "2012",
-    },
   ];
   return (
     <div className="container bg-white py-5">
@@ -33,7 +25,7 @@ const Education = () => {
           <div className="border-left border-primary pt-2 pl-4 ml-2">
             {Lists?.map((list) => (
               <ExpericnceList
-                key={list.degree}
+                key={list.designation}
                 designation={list.designation}
                 company_name={list.company_name}
                 start_year={list.start_year}
