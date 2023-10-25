@@ -6,6 +6,7 @@ import Projects from "./components/Projects";
 import Sidebar from "./components/Sidebar";
 import Skills from "./components/Skills";
 import AnimatedCursor from "react-animated-cursor";
+import { ScrollTop } from "./components/ScrollTop";
 
 function App() {
   return (
@@ -38,7 +39,8 @@ function App() {
         <Experience />
         <Education />
         {/* <Projects /> */}
-        <Contact />
+        {/* <Contact /> */}
+        <ScrollTop />
       </div>
     </div>
   );

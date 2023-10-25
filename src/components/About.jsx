@@ -11,7 +11,7 @@ const About = () => {
   ];
 
   return (
-    <div className="container bg-white py-5">
+    <div className="container bg-white py-5" id="About">
       <div className="row px-3">
         <Heading name={"About Me"} />
         <div className="col-12">

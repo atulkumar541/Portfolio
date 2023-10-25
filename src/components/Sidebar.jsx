@@ -5,9 +5,9 @@ import resume from "../../public/resume/AtulkumarChaturvediResume.pdf";
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <div className="sidebar-text d-flex flex-column h-100 justify-content-center text-center sidebar_image">
+      <div className="sidebar-text d-flex flex-column h-100 justify-content-center text-center ">
         <img
-          className="w-100 img-fluid mb-5"
+          className="w-100 img-fluid mb-5 sidebar_image"
           src="images/profileImage-bg.png"
           alt="Atulkumar Chaturvedi"
         />
@@ -20,26 +20,37 @@ const Sidebar = () => {
             <TypeText />
           </div>
         </div>
-        <div className="d-flex justify-content-center mt-auto mb-3">
-          <a className="mx-2" href="#">
-            <i>
-              <FaGithub size={20} />
-            </i>
+        <div className="d-flex justify-content-center mt-auto mb-3 social-image">
+          <a className="mx-2" href="https://github.com/atulkumar541">
+            <img
+              className="w-100 img-fluid mb-5"
+              src="social/icons8-github.svg"
+              alt="Git hub"
+            />
           </a>
-          <a className="mx-2" href="#">
-            <i>
-              <FaLinkedin size={20} />
-            </i>
+          <a
+            className="mx-2"
+            href="https://www.linkedin.com/in/atulkumar-chaturvedi/"
+          >
+            <img
+              className="w-100 img-fluid mb-5"
+              src="social/icons8-linkedin-480.svg"
+              alt="Linkedin"
+            />
           </a>
-          <a className="mx-2" href="#">
-            <i>
-              <FaTwitter size={20} />
-            </i>
+          <a className="mx-2" href="https://twitter.com/atulkumar_541">
+            <img
+              className="w-100 img-fluid mb-5"
+              src="social/icons8-twitter-circled.svg"
+              alt="Twitter"
+            />
           </a>
-          <a className="mx-2" href="#">
-            <i>
-              <FaInstagram size={20} />
-            </i>
+          <a className="mx-2" href="https://www.instagram.com/atulkumar_541/">
+            <img
+              className="w-100 img-fluid mb-5"
+              src="social/icons8-instagram.svg"
+              alt="Instagram"
+            />
           </a>
         </div>
         <div className="d-flex align-items-end justify-content-between">
