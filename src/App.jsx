@@ -1,5 +1,5 @@
 import About from "./components/About";
-import Contact from "./components/Contact";
+// import Contact from "./components/Contact";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
@@ -38,7 +38,7 @@ function App() {
         <Skills />
         <Experience />
         <Education />
-        {/* <Projects /> */}
+        <Projects />
         {/* <Contact /> */}
         <ScrollTop />
       </div>
